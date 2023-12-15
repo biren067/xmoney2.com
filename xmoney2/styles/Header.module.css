@@ -1,0 +1,112 @@
+.mynavbar{
+    height: 6vh;
+    background: #000000;
+    color:white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    /* border:1px solid red; */
+    /* padding: 0; */
+}
+.mynavbar-logo{
+    padding: 0;
+    /* padding: 2px; */
+    font-size: 1.5rem;
+    padding-left:10px;
+    /* border: 1px solid red; */
+}
+.mymenu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid yellow; */
+    padding:0;
+}
+.mynavbar-logo a{
+    text-decoration: none;
+    color: white; 
+}
+
+.mynavbar-logo a:hover{
+    color: white;
+}  
+.mynav-items{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    /* border: 1px solid green; */
+
+    /* margin-right: 2rem; */
+}
+.mynav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+}
+.mynav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    /* margin-right: 1rem; */
+    padding: 2px 6px;
+    border-radius: 2px;
+}
+
+.mynav-item a:hover{
+    background-color: rgb(212, 0, 177);
+    color: white;
+}
+/* ========= sub-menu ========== */
+.mysubmenu{
+    /* width: 10rem; */
+    position: absolute;
+    top:6vh;
+    margin-left: 50px;
+    
+    /* text-align: start; */
+    list-style: none;
+    background-color:var(--color-submenu-item);
+    /* color:white; */
+    padding:0;
+}
+/* .mysubmenu-item:hover{
+    background-color: var(--color-submenu-highlighter);
+    display: block;
+    cursor: pointer;
+    color:var(--color-submenu-item);   
+} */
+.mysubmenu-item a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.mysubmenu-item a:hover{
+    /* display: block; */
+    background-color: var(--color-submenu-highlighter);
+    color: var(--color-submenu-item);
+}
+.mysubmenu-hide{
+    display: none;
+}
+/* .submenu-item {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 3px 6px;
+    font-size: 1.1rem;
+} */
+
+/* .submenu-item:hover {
+    background-color: red;
+} */
+
+/* ==========button========= */
+/* .btn-item{
+    border: 1px solid red;
+} */
